@@ -1,0 +1,7 @@
+Exercise 01 Comments
+- Manifest file describes info about the app to Android build tools, OS and Google Play.
+For example app's package name, components, permissions, hardware and software requirements.
+- Learned to create AVD and how to test with different devices and such.
+- Everything I want in the app layout I should put in resources, like text to strings.xml -file.
+- Learned how to connect text to components in MainActivity layout.
+- Changing language is easier than I thought.
