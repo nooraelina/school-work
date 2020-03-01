@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Launch a Map</string>
+    <string name="info_line">Give a location (lat and lng):</string>
+    <string name="enter_lat">Latitude</string>
+    <string name="enter_lng">Longitude</string>
+    <string name="button_show_map">Show a map</string>
+</resources>
