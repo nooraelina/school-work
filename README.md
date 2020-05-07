@@ -1,3 +1,3 @@
 # School Work
 
-Includes programming and other material which I've done during my studies.
+Here you can find all the coding-related material I have done in my studies.
