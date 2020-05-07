@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Noora</title>
+        <!--responsiivisuus https://www.w3schools.com/whatis/whatis_responsive.asp 
+        Fontit: Open Sans, Dosis, Anton
+        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dosis&family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="E06-style.css">
+    </head>
+    <body>
+
+        <div class="top">
+            <!--sis. bannerikuvan, otsikon, pienen alainfon-->
+            <div class="bigtext">CURRICULUM VITAE</div>
+            <img src="img/noora.png" alt="cvkuva" class="responsive" id="omakuva">
+            <br>
+            <span class="intro">Noora Kuorikoski</span>
+            <br>
+            <span class="intro">Tieto- ja viestintätekniikan insinööriopiskelija</span>
+            <br>
+            <span class="intro">Lähihoitaja, ylioppilas</span>
+            <br>
+            <button class="theme-toggle-button">
+                <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M7.5,2C5.71,3.15 4.5,5.18 4.5,7.5C4.5,9.82 5.71,11.85 7.53,13C4.46,13 2,10.54 2,7.5A5.5,5.5 0 0,1 7.5,2M19.07,3.5L20.5,4.93L4.93,20.5L3.5,19.07L19.07,3.5M12.89,5.93L11.41,5L9.97,6L10.39,4.3L9,3.24L10.75,3.12L11.33,1.47L12,3.1L13.73,3.13L12.38,4.26L12.89,5.93M9.59,9.54L8.43,8.81L7.31,9.59L7.65,8.27L6.56,7.44L7.92,7.35L8.37,6.06L8.88,7.33L10.24,7.36L9.19,8.23L9.59,9.54M19,13.5A5.5,5.5 0 0,1 13.5,19C12.28,19 11.15,18.6 10.24,17.93L17.93,10.24C18.6,11.15 19,12.28 19,13.5M14.6,20.08L17.37,18.93L17.13,22.28L14.6,20.08M18.93,17.38L20.08,14.61L22.28,17.15L18.93,17.38M20.08,12.42L18.94,9.64L22.28,9.88L20.08,12.42M9.63,18.93L12.4,20.08L9.87,22.27L9.63,18.93Z" />
+                </svg>
+                Vaihda teemaa
+              </button>
+            <br>
+            
+        </div>
+
+        <div class="flexbox">
+            <div class="button-img">
+                <a href="https://www.linkedin.com/in/noora-kuorikoski" class="fleximg">
+                    <div class="img-header" style="background-image: url(img/laptop.jpg)">
+                        <div class="img-content">
+                            <span class="headeri">LinkedIn</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="button-img">
+                <a href="https://github.com/nooraelina" class="fleximg">
+                    <div class="img-header" style="background-image: url(img/code.jpg)">
+                        <div class="img-content">
+                            <span class="headeri">GitHub</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="button-img">
+                <a href="https://github.com/nooraelina/Web-tekniikoiden-perusteet" class="fleximg">
+                    <div class="img-header" style="background-image: url(img/webdesign.jpg)">
+                        <div class="img-content">
+                            <span class="headeri">Web-opintojakso</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="button-img">
+                <a href="#" class="fleximg">
+                    <div class="img-header" style="background-image: url(img/spring.jpg)">
+                        <div class="img-content">
+                            <span class="headeri">Esimerkki</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="flexbox">
+            <div id="leftside" class="column" style="max-width: 400px;">
+                <h1>Noora Kuorikoski</h1>
+                <p>Olen päätoiminen opiskelija Turun ammattikorkeakoulussa.</p>
+                <p>Työkokemukseni koostuu enimmäkseen lähihoitajan töistä (vuodet 2015 – 2019)</p>
+                
+                <p><h2>Koulutus</h2>
+                    
+                    Tieto- ja viestintätekniikan insinööri<br>
+                    Turun ammattikorkeakoulu<br>
+                    elo 2018 – 2022<br>
+                    <br>
+                    Sosiaali- ja terveysalan tutkinto + lukio<br>
+                    Keski-Pohjanmaan ammattiopisto<br>
+                    elo 2013 – heinä 2017<br>
+                    </p>
+
+                <p><h2>Kielet</h2>
+                    Suomi - Äidinkieli<br>
+                    Englanti - Hyvä
+                    </p>
+            </div>
+            
+            <div id="rightside" class="column" style="max-width: 400px;">
+
+                <h2>Taidot</h2>
+                <table>
+                    <tr>
+                        <td>Git</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>MySQL</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Kotlin</td>
+                        <td>Perusteet</td>
+                    </tr>
+                    <tr>
+                        <td>Lightroom</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Photoshop</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </table>
+
+                <h2>Kiinnostuksen kohteet</h2>
+                <ul>
+                    <li>Ohjelmointi</li>
+                    <li>Käytettävyys ja käyttöliittymäsuunnittelu</li>
+                    <li>Web-ohjelmointi</li>
+                    <li>Sovelluskehitys</li>
+                    <li>Kuntosalilla käynti</li>
+                    <li>Graafinen suunnittelu</li>
+                    <li>Valokuvaus</li>
+                </ul>
+                
+
+            </div>
+        </div>
+
+        <!-- Viimeisenä scripti -->
+        <script src="E06-script.js"></script>
+
+    </body>
+</html>
